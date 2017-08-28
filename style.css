@@ -1,0 +1,13 @@
+.main_nav {
+	text-align: center;
+	margin: 0;
+	background-color: #fff;
+	padding: 9px 0 0 0;
+	position: relative;
+	z-index: 150;
+}
+.main_nav li{
+	display: inline-block;
+	padding: 0 0 7px;
+	margin: 0 -2px;
+}
