@@ -1,3 +1,4 @@
+/*主選單區*/
 .main_nav {
 	text-align: center;
 	margin: 0;
@@ -6,9 +7,26 @@
 	position: relative;
 	z-index: 150;
 }
-.main_nav li{
-	font-family: Microsoft JhengHei;
+.main_nav li {
 	display: inline-block;
-	padding: 0 0 7px;
+	padding: 7px;
 	margin: 0 -2px;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bold;
+	list-style-position: outside;
 }
+a,a:hover,a:focus{
+	color: #E47445;
+}
+a{
+	text-decoration: none;
+}
+.tmhr{
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 1px;
+	background: -webkit-linear-gradient(left,rgba(228, 228, 228, 0) 0,#E4E4E4 20%,#E4E4E4 80%,rgba(228, 228, 228, 0) 99%)
+}
+/*內容*/
