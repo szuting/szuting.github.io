@@ -59,7 +59,7 @@ a{
 .ting-image.ting_animate{
 	width: 250px;
 	height: 250px;
-	margin: -200px 0 0 -125px;
+	margin: 0px 0 0 0px;
 	border-radius: 50%;
 }
 .pos_2{
