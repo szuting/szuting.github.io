@@ -17,7 +17,7 @@
 	list-style-position: outside;
 }
 a,a:hover,a:focus{
-	color: #E47445;
+	color: #59b4a2;
 }
 a{
   letter-spacing: 2px;
@@ -31,3 +31,68 @@ a{
 	background: -webkit-linear-gradient(left,rgba(228, 228, 228, 0) 0,#E4E4E4 20%,#E4E4E4 80%,rgba(228, 228, 228, 0) 99%)
 }
 /*內容*/
+.content-wrapper{
+	padding: 95px 0 0 0;
+	margin-bottom: 350px;
+}
+.row{
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.ting-image-parent{
+	position: relative;
+	height: 320px;
+	width: 320px;
+	margin: 50px auto 25px;
+	border-radius: 50%;
+	border: 1px dashed #ddd;
+}
+.ting-image-holder{
+	width: 250px;
+	height: 250px;
+	position: relative;
+	margin: 35px auto;
+}
+.ting-image.ting_animate{
+	width: 250px;
+	height: 250px;
+	margin: -125px 0 0 -125px;
+	border-radius: 50%;
+}
+.ting-image{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0;
+	border-radius: 0;
+	width: 0;
+	height: 0;
+	
+}
+.pos_2{
+	top: 280px;
+	left: 65px;
+	background-position: -3px 7px;
+}
+.pos_3{
+	top: 280px;
+	right: 65px;
+	background-position: -3px 6px;
+}
+.pos{
+	position: absolute;
+	display: block;
+	height: 43px;
+	width: 43px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	z-index: 100;
+}
