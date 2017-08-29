@@ -59,23 +59,10 @@ a{
 .ting-image.ting_animate{
 	width: 250px;
 	height: 250px;
-	margin: -125px 0 0 -125px;
+	margin: -345px -175px;
 	border-radius: 50%;
 }
-.ting-image{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	overflow: hidden;
-	background-size: 100% 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-	margin: 0;
-	border-radius: 0;
-	width: 0;
-	height: 0;
-	
-}
+
 .pos_2{
 	top: 280px;
 	left: 65px;
