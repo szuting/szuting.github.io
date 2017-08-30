@@ -82,3 +82,18 @@ a{
 	border-radius: 50%;
 	z-index: 100;
 }
+h2{
+	font-size: 32px;
+	line-height: 60px;
+}
+.h1,h2,h3,h4,h5{
+	font-family: Arial;
+}
+p.subline{
+	font-family: Arial;
+	width: 50%;
+  margin: 5px auto 0;
+	line-height: 28px;
+	font-size: 20px;
+	color: #999;
+}
