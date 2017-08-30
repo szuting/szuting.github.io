@@ -83,11 +83,14 @@ a{
 	z-index: 100;
 }
 h2{
-	font-size: 32px;
+	font-size: 52px;
 	line-height: 60px;
 }
 .h1,h2,h3,h4,h5{
 	font-family: Arial;
+	text-rendering: optimizeLegibility;
+	color: #666;
+	padding: 0;
 }
 p.subline{
 	font-family: Arial;
@@ -96,4 +99,13 @@ p.subline{
 	line-height: 28px;
 	font-size: 20px;
 	color: #999;
+}
+.div{
+	display: block;
+}
+.zero-margin{
+	margin: 0;
+}
+.name-box{
+	text-align: center;
 }
