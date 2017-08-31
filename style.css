@@ -38,6 +38,9 @@ a{
 	background: -webkit-linear-gradient(left,rgba(228, 228, 228, 0) 0,#E4E4E4 20%,#E4E4E4 80%,rgba(228, 228, 228, 0) 99%)
 }
 /*內容*/
+.body{
+	font-family: Arial;
+}
 .content-wrapper{
 	padding: 155px 0 0 0;
 	margin-bottom: 350px;
@@ -157,3 +160,18 @@ top:2px;
 	color:#fff;
 }
 /*ABOUT ME*/
+/*TIMELINE*/
+.timeline{
+	width: 100%;
+	float: left;
+}
+.timeline_point{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: #59b4a2;
+	text-align: center;
+	padding: 25px 25px;
+}
