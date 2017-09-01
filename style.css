@@ -42,6 +42,10 @@ a{
 	background: -webkit-linear-gradient(left,rgba(228, 228, 228, 0) 0,#E4E4E4 20%,#E4E4E4 80%,rgba(228, 228, 228, 0) 99%)
 }
 /*內容*/
+.body,div{
+	margin: 0;
+	padding: 0;
+}
 .body{
 	font-family: Arial;
 	background-color: #ddd;
@@ -180,8 +184,7 @@ top:2px;
 }
 /*TIMELINE*/
 .timeline{
-	background: url(http://ericfriese.com/images/timeline-bg.png) center up
-	repeat-y;
+	background: url(images/timeline-bg.png)center top repeat-y;
 	width: 100%;
 	float: left;
 }
@@ -214,7 +217,7 @@ top:2px;
 	border-radius: 4px;
 	float: left;
 	position: relative;
-	width: 480px;
+	width: 440px;
 	padding: 20px;
 	-webkit-box-shadow:0 0px 5px rgba(0,0,0,0.3);
 	-moz-box-shadow:0 0px 5px rgba(0,0,0,0.3);
@@ -223,25 +226,104 @@ top:2px;
 	box-shadow: 0 0px 5px rgba(0,0,0,0.3);
 	z-index: 100;
 }
+.left{
+	float: left;
+}
+.timeline_unit.left{
+	float: left;
+	clear: left;
+	margin: 0 0 55px 20px;
+}
+@media screen and (max-width: 1279px) and (min-width: 751px)
+.timeline_unit.left .icon{
+	right:-27.5%
+}
 .timeline_unit.left .icon{
     top:10px;
-    right: 100px;
+    right: -105px;
+}
+.timeline_unit.right .icon{
+	top: 90px;
+	left: -105px;
 }
 .timeline_unit .icon{
+    margin: 0 auto;
+    overflow: hidden;
 	height: 20px;
 	width: 60px;
 	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-	border-radius: 50%;
+    border-radius: 50%;
 	background: #59b4a2;
 	text-align: center;	
+	padding: 0;
+	position: absolute;
 	padding: 25px 5px;
+
 }
-.timeline_unit .icon span{
+.icon span{
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: .15em;
 	text-align: center;
 	font-size: 14px;
+}
+.timeline_unit.data_meta_hold{
+	margin: 0 0 5px;
+	padding: 0;
+}
+.timeline_meta_hold{
+	margin: 0 0 5px;
+	float: left;
+	width: 100%;
+	padding: 0 0 5px;
+}
+.timeline_unit .arrow{
+	width: 24px;
+	height: 24px;
+	background: #fff;
+	-webkit-box-shadow:-2px -2px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow:-2px -2px 3px rgba(0, 0, 0, 0.15);
+	-ms-box-shadow:-2px -2px 3px rgba(0, 0, 0, 0.15);
+	-o-box-shadow:-2px -2px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	top: 20px;
+}
+.timeline_unit.left .arrow{
+	right: -12px;
+	-webkit-transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-ms-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+	transform: rotate(135deg);
+}
+.timeline_unit.right .arrow{
+    left: -12px;
+    top: 110px;
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.timeline_img{
+	border-radius: 4px 4px 0 0;
+	margin: 0 0 5px;
+	width: 100%;
+}
+.img{
+	height: auto;
+}
+.img, object, embed{
+	max-width: 100%;
+}
+@media screen and (max-width: 1279px) and (min-width: 751px)
+.timeline_unit.right {
+	float:right;
+	margin:0 20px 55px 0;
+}
+.timeline_unit.right{
+	float: right;
+	clear: right;
+	margin: 0 20px 55px 0;
 }
