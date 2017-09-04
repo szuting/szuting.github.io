@@ -41,6 +41,10 @@ a{
 	height: 1px;
 	background: -webkit-linear-gradient(left,rgba(228, 228, 228, 0) 0,#E4E4E4 20%,#E4E4E4 80%,rgba(228, 228, 228, 0) 99%)
 }
+.main_nav li a:hover, .link-active{
+	background: #59b4a2;
+	color: #fff;
+}
 /*內容*/
 .body,div{
 	margin: 0;
@@ -52,7 +56,7 @@ a{
 	height: 99%;
 }
 .content-wrapper{
-	padding: 155px 0 0 0;
+	padding: 155px 0 155px 0;
 	margin-bottom: 350px;
 }
 .row{
@@ -326,4 +330,14 @@ top:2px;
 	float: right;
 	clear: right;
 	margin: 0 20px 55px 0;
+}
+.timeline_point.smaller.last{
+	margin: 35px auto 0;
+}
+.timeline_point.smaller{
+	width: 60px;
+	height: 14px;
+	padding: 28px 5px;
+	margin: 35px auto;
+	clear: both;
 }
