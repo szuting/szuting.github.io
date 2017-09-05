@@ -6,18 +6,24 @@
 	<title>Huang Szu-Ting - Commercial Designer</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="grid.css" type="text/css" media="screen"/>
 </head>
 
 <body>
-  <div id="main">
-	<ul class="main_nav">
-	<li><a href="#ABOUT" class>ABOUT</a></li>
-	<li><a href="#EDUCATION" class>EDUCATION</a></li>
-	<li><a href="#MY SKILLS" class>MY SKILLS</a></li>
-	<div class="tmhr"></div>
-  </ul>
+<p id="back-top" style="display: none;">
+	<a href="#top">Top</a>
+</p>
+<div id="main">
+   	<div id="main_menu">
+		<ul class="main_nav">	
+	 		<li><a href="#ABOUT" class>ABOUT</a></li>
+	 		<li><a href="#EDUCATION" class>EDUCATION</a></li>
+	 		<li><a href="#MY SKILLS" class>MY SKILLS</a></li>
+	 		<div class="tmhr"></div>	
+    	</ul>
+   	</div>
 	<div class="container">
-		<div id="top" class="content-wrapper twelvecol row">
+		<div id="top" class="content-wrapper twelvecol row section-active">
 			<div class="ting-image-parent">
 				<a href="https://www.facebook.com/huang.si.5" class="pos pos_2" style="opacity:1;"><img src="images/fb.svg">
 				</a>
@@ -35,14 +41,12 @@
 				<a href="#ABOUT" class="button">Check out more</a>
 			</div>
 			<div class="clearrow"></div>
-		<div id="ABOUT" class="row twelvecol content-wrapper section-active">
+		<div id="ABOUT" class="row twelvecol content-wrapper">
 			<div class="text-center">
 				<h2 class="main-title title">About me</h2>
 				<div class="hr"></div>
 		    </div>
 			<div class="centerd">
-				<div class="tmhr"></div>
-				<div class="separator special"></div>
 				<!--TIMELINE-->
 				<div class="timeline">
 				<!--TIMELINE_POINT-->
@@ -94,6 +98,33 @@
 				</div>
 			</div>
 		</div>
-   </div>
+		<div id="EDUCATION" class="row twelvecol content-wrapper">
+		     <div class="text-center">
+		        <h2 class="main-title title">Education</h2>
+		        <div class="tmhr"></div>
+		     </div>
+		     <div class="centered">
+		        <div class="sixcol">
+		        	<div class="data_meta_hold">
+		        		<div class="image_rounded">
+		        			<img src="images/cycu.jpg" alt="Chung Yuan Christian University">
+		        		</div>
+		        		<h3 class="title_with_image">中原大學 Chung Yuan Christian University</h3>
+		        		<h4 class="subtitle_with_image"> Commercial Design</h4>
+		        		<h4 class="year_inline_image">2007-2011</h4>		        		
+		        	</div>
+		        </div>
+		        <div class="sixcol last">
+		        	<div class="data_meta_hold">
+		        		<div class="image_rounded">
+		        			<img src="images/clhs.jpg" alt="The Affiliated Jhongli Senior High School of National Central University">
+		        		</div>
+		        	<h3 class="title_with_image">中壢高中 The Affiliated Jhongli Senior High School of National Central University</h3>
+		        	<h4 class="year_inline_image">2005-2007</h4>
+		        	</div>	</div>		     	
+		     </div>
+		     <div class="separator"></div>			
+		</div>
+</div>
 </body>
 </html>
