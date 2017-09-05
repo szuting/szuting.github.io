@@ -3,6 +3,18 @@
 .timeline_unit.left{
 	float:left;
 }
+.body,html{
+	font-family: Arial;
+	background-color: #ddd;
+	height: 99%;
+}
+#main{
+	width: 98%;
+	margin: 1%;
+	min-height: 98%;
+	background-color: #fff;
+	border-bottom: 0.9em solid #ddd;
+}
 .main_nav {
 	text-align: center;
 	margin: 0;
@@ -47,23 +59,13 @@
 #main_menu.fixed{
 	position: fixed;
 }
-#main{
-	width: 98%;
-	margin: 1%;
-	min-height: 98%;
-	background-color: #fff;
-	border-bottom: 0.9em solid #ddd;
-}
+
 .row{
 	width: 100%;
 	max-width: 1140px;
 	min-width: 755px;
 	margin: 0 auto;
 	overflow: hidden;
-}
-.content-wrapper{
-	padding: 155px 0 95px 0;
-	margin-bottom: 150px;
 }
 a,a:hover,a:focus{
 	color: #59b4a2;
@@ -86,15 +88,16 @@ a{
 	background: #59b4a2;
 	color: #fff;
 }
+.ul,ol{
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 17px;
+	list-style-position: outside;
+}
 /*內容*/
 .body,div{
 	margin: 0;
 	padding: 0;
-}
-.body,html{
-	font-family: Arial;
-	background-color: #ddd;
-	height: 99%;
 }
 .ting-image-parent{
 	position: relative;
@@ -417,4 +420,14 @@ top:2px;
 	float: left;
 	margin: 0 15px 0 0;
 	overflow: hidden;
+}
+.title_with_image{
+	margin: 0;
+}
+.subtitle_with_image{
+	font-weight: normal;
+	font-size: 14px;
+	color: #666;
+	margin: 0;
+	text-transform: uppercase;
 }
