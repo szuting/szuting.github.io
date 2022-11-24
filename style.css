@@ -6,7 +6,7 @@
 .body,html{
 	font-family: Arial;
 	background-color: #ddd;
-	height: 99%;
+	height: 9%;
 }
 #main{
 	width: 98%;
@@ -18,7 +18,7 @@
 .main_nav {
 	text-align: center;
 	margin: 0;
-	background-color: #fff;
+	background-color: #ddd;
 	padding: 9px 0 0 0;
 	position: relative;
 	z-index: 150;
