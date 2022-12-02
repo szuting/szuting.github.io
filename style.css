@@ -337,6 +337,16 @@ top:2px;
 	margin: 0 0 5px;
 	padding: 0;
 }
+.img_hover_zoom {
+  height: 250px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+.img_hover_zoom img {
+  transition: transform .5s ease;
+}
+.img_hover_zoom:hover img {
+  transform: scale(1.5);
+}
 .timeline_meta_hold{
 	margin: 0 0 5px;
 	float: left;
